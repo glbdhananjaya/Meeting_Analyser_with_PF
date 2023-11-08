@@ -1,0 +1,28 @@
+2023-11-08 18:08:08 +0530   44951 execution          INFO     Start to run 2 nodes with concurrency level 16.
+2023-11-08 18:08:08 +0530   44951 execution.flow     INFO     Executing node extract_text. node run id: 1a5b230d-953f-4fc9-a0d0-71361b88d512_extract_text_0
+2023-11-08 18:08:08 +0530   44951 execution.flow     INFO     [extract_text in line 0 (index starts from 0)] stdout> MoviePy - Writing audio in audio.wav
+2023-11-08 18:08:08 +0530   44951 execution          WARNING  [extract_text in line 0 (index starts from 0)] stderr> chunk:   0%|          | 0/8172 [00:00<?, ?it/s, now=None]
+2023-11-08 18:08:08 +0530   44951 execution          WARNING  [extract_text in line 0 (index starts from 0)] stderr> chunk:  10%|9         | 806/8172 [00:00<00:00, 7989.36it/s, now=None]
+2023-11-08 18:08:08 +0530   44951 execution          WARNING  [extract_text in line 0 (index starts from 0)] stderr> chunk:  20%|#9        | 1605/8172 [00:00<00:00, 7977.01it/s, now=None]
+2023-11-08 18:08:08 +0530   44951 execution          WARNING  [extract_text in line 0 (index starts from 0)] stderr> chunk:  31%|###       | 2517/8172 [00:00<00:00, 8449.50it/s, now=None]
+2023-11-08 18:08:08 +0530   44951 execution          WARNING  [extract_text in line 0 (index starts from 0)] stderr> chunk:  42%|####1     | 3423/8172 [00:00<00:00, 8687.51it/s, now=None]
+2023-11-08 18:08:09 +0530   44951 execution          WARNING  [extract_text in line 0 (index starts from 0)] stderr> chunk:  53%|#####2    | 4292/8172 [00:00<00:00, 8555.51it/s, now=None]
+2023-11-08 18:08:09 +0530   44951 execution          WARNING  [extract_text in line 0 (index starts from 0)] stderr> chunk:  64%|######4   | 5238/8172 [00:00<00:00, 8857.53it/s, now=None]
+2023-11-08 18:08:09 +0530   44951 execution          WARNING  [extract_text in line 0 (index starts from 0)] stderr> chunk:  76%|#######5  | 6172/8172 [00:00<00:00, 9012.96it/s, now=None]
+2023-11-08 18:08:09 +0530   44951 execution          WARNING  [extract_text in line 0 (index starts from 0)] stderr> chunk:  87%|########6 | 7074/8172 [00:00<00:00, 8692.01it/s, now=None]
+2023-11-08 18:08:09 +0530   44951 execution          WARNING  [extract_text in line 0 (index starts from 0)] stderr> chunk:  97%|#########7| 7962/8172 [00:00<00:00, 8748.60it/s, now=None]
+2023-11-08 18:08:09 +0530   44951 execution          WARNING  [extract_text in line 0 (index starts from 0)] stderr> 
+2023-11-08 18:08:09 +0530   44951 execution          WARNING  [extract_text in line 0 (index starts from 0)] stderr>                                                                       
+2023-11-08 18:08:09 +0530   44951 execution          WARNING  [extract_text in line 0 (index starts from 0)] stderr> 
+2023-11-08 18:08:09 +0530   44951 execution.flow     INFO     [extract_text in line 0 (index starts from 0)] stdout> MoviePy - Done.
+2023-11-08 18:10:26 +0530   44951 execution.flow     INFO     Node extract_text completes.
+2023-11-08 18:10:26 +0530   44951 execution.flow     INFO     Executing node chat. node run id: 1a5b230d-953f-4fc9-a0d0-71361b88d512_chat_0
+2023-11-08 18:10:26 +0530   44951 execution          WARNING  extract_text in line 0 has been running for 120 seconds, stacktrace of thread 10754224128:
+  File "/Users/bhashitha98/Documents/Bistec/CodeCrunch/Meeting_Analyser_with_PF/extract_text.py", line 20, in transcribe_video
+    text = recognizer.recognize_sphinx(audio)
+  File "/Users/bhashitha98/miniconda3/envs/pf/lib/python3.9/site-packages/speech_recognition/__init__.py", line 664, in recognize_sphinx
+    decoder.end_utt()  # stop utterance processing
+
+2023-11-08 18:10:27 +0530   44951 execution.flow     WARNING  Failed to calculate metrics due to exception: Cannot calculate metrics for none or empty api_type..
+2023-11-08 18:10:27 +0530   44951 execution.flow     WARNING  Output of chat is not json serializable, use str to store it.
+2023-11-08 18:10:27 +0530   44951 execution.flow     INFO     Node chat completes.

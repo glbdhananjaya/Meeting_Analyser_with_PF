@@ -35,9 +35,8 @@ This project is a OpenAI based automated transcription and summarization system 
 
 # Project Evaluation
 
-## Drawbacks
-- Time consuming for the chat bot.
-- Transcriptions takes time since an audio file is generated first.
+## Drawbacks 
+- Transcriptions takes time since an audio file is generated first from the video.
 
 ## Suggestions
 - A faster, more advanced speech recognition engine can be used. (e.g: Google Speech Recognotion API or any other cloud based API)

@@ -1,0 +1,26 @@
+{
+  "package": {},
+  "code": {
+    "chat.jinja2": {
+      "type": "llm",
+      "inputs": {
+        "txt": {
+          "type": [
+            "string"
+          ]
+        },
+        "question": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "chat.jinja2"
+    },
+    "extract_text.py": {
+      "type": "python",
+      "source": "extract_text.py",
+      "function": "transcribe_video"
+    }
+  }
+}
